@@ -1,0 +1,84 @@
+.homeStart{
+    margin-left: 250px;
+}
+.hoverclass:hover{
+    color: red !important;
+    border: 1px solid red;
+    
+}
+.section01{
+    height: 500px;
+    background-image: url(./images/001_pc.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: last baseline;
+}
+.section01:hover,.section03:hover,.section04:hover,.section02:hover{
+    filter: brightness(50%);
+    /* opacity: 0.7; */
+    background-color: #212121;
+    
+}
+.section03hover{
+    /* filter: brightness(100%); */
+    color: white !important;
+    background: none;
+    
+
+    
+}       
+.section03{
+    height: 500px;
+    background-image: url(./images/002_pc\ \(1\).jpg);
+    background-size: cover;
+    display: flex;
+    align-items: last baseline;
+    /* filter: brightness(70%); */
+
+}
+.section04{
+    height: 500px;
+    background-image: url(./images/003_pc_en.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: last baseline;
+    
+}
+.section04buttom{
+    background: -webkit-linear-gradient(top,transparent,#000);
+}
+.section01Span{
+    margin-top: 100px;
+    font-weight: bold;
+    padding: 2px;
+    background-color: red;
+    font-size: smaller;
+    
+}
+.section02 a{
+    text-decoration: none;
+    
+    /* background-size: cover; */
+    /* border: 2px solid green; */
+    
+}
+.section02 a:hover{
+    text-decoration:  underline;
+}
+.section05img{
+    height: 70%;
+    width: 85%;
+    margin-bottom: 10px;
+
+}
+.section05Span{
+    font-weight: bold;
+}
+.section06{
+    background-color: #f6f6f6;
+}
+.section06UlList li{
+    list-style: none;
+
+}
+
