@@ -1,20 +1,94 @@
 .homeStart{
-    margin-left: 250px;
+    margin-right: 200px;
+}
+.navbar-toggler, .navbar-toggler:focus,.navbar-toggler-icon:focus {
+outline: none;
+box-shadow: none;
+border: 0;
+transition: 1s ease-in-out;
+}
+.navbar-toggler-icon:active,.navbar-toggler-icon:focus {
+   background-image: none;
+   background-image: url(./images/globaltoyota_logo.svg);
 }
 .hoverclass:hover{
     color: red !important;
-    border: 1px solid red;
+    border: 2px solid red;
     
 }
-.section01{
-    height: 500px;
-    background-image: url(./images/001_pc.jpg);
+.hoverclass{
+    border: 2px solid black;
+    margin: 0px;
+    padding: 0px;
+}
+.nav-link{
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    cursor: pointer;
+    justify-content: center;
+    width: fit-content;
+}
+
+
+.navbar-nav{
+    font-size: small;
+}
+
+
+/* Section 003 */
+
+
+
+
+
+
+
+/* Section 01 */
+.section001{
+    background-image: url(./images/0011_sp.jpg);
     background-size: cover;
+    background-position:center;
+    height: 500px;
+    background-repeat: no-repeat;
     display: flex;
     align-items: last baseline;
 }
+.section002{
+    background-image: url(./images/0012.jpg);
+    background-size: cover;
+    background-position:left;
+    height: 500px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: last baseline;
+}
+
+.section01stDiv{
+    background: -webkit-linear-gradient(top,transparent,#000);
+    width: 100%;
+}
+.section01{
+    
+    background-image: url(./images/001_pc.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 500px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: last baseline;
+    
+}
+
+.section01stDiv{
+    margin: 20px;
+}
+.section01stDiv span{
+    font-size: small;
+}
 .section01:hover,.section03:hover,.section04:hover,.section02:hover{
-    filter: brightness(50%);
+    filter: brightness(40%);
     /* opacity: 0.7; */
     background-color: #212121;
     
@@ -31,6 +105,8 @@
     height: 500px;
     background-image: url(./images/002_pc\ \(1\).jpg);
     background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
     display: flex;
     align-items: last baseline;
     /* filter: brightness(70%); */
@@ -40,23 +116,28 @@
     height: 500px;
     background-image: url(./images/003_pc_en.jpg);
     background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
     display: flex;
     align-items: last baseline;
     
 }
 .section04buttom{
     background: -webkit-linear-gradient(top,transparent,#000);
+    padding: 20px;
 }
 .section01Span{
     margin-top: 100px;
     font-weight: bold;
-    padding: 2px;
+    padding: 3px;
     background-color: red;
     font-size: smaller;
+    border-radius: 2px;
     
 }
 .section02 a{
     text-decoration: none;
+    
     
     /* background-size: cover; */
     /* border: 2px solid green; */
@@ -65,10 +146,20 @@
 .section02 a:hover{
     text-decoration:  underline;
 }
+
+.section02Heading{
+    text-decoration: none;
+
+}
+.section02Heading:hover{
+    text-decoration: underline;
+    color: red;
+}
 .section05img{
     height: 70%;
     width: 85%;
     margin-bottom: 10px;
+    cursor: pointer;
 
 }
 .section05Span{
@@ -79,6 +170,79 @@
 }
 .section06UlList li{
     list-style: none;
+    margin-top: 10px;
+    
+    
 
 }
+.section06UlList a{
+    text-decoration: none;
+}
+.section06Color{
+    color: #034f6d;
+    margin-left: 10px;
+}
+.section06Color:hover{
+    color: red;
+    text-decoration: underline;
+}
+/*                 Section06                     */
 
+.moreButton{
+    display: flex;
+    /* border: 2px solid green; */
+    width: 100%;
+    align-items: center;
+    justify-content: end;
+}
+.moreButton:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.section6FirstDiv{
+    position: relative;
+    width: 25%;
+    height: 80px;
+}
+.section6FirstDivBrightness{
+    position: absolute;
+    inset: 0;
+    
+}
+.section6FirstDivBrightness:hover{
+    /* filter: brightness(10%) !important; */
+    opacity: 0.7;
+    background-color: #212121;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.section06Text{
+    width: 75%;
+    height: 80px;
+    overflow: hidden;
+    font-size: 10px !important;
+    cursor: pointer;
+    
+}
+.section06BackgroundColor{
+    background-color: #f6f6f6;
+}
+
+.section06HoverColor:hover{
+    color: red;
+}
+/* ==================================   Media Section =============================== */
+
+
+
+/* @media only screen and (max-width:375px) {
+    .section001{
+        height: 50vh;
+        width: 100%;
+        background-size: contain;
+    }
+    .section01stDiv{
+        font-size: smaller;
+    }
+} */

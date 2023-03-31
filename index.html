@@ -1,149 +1,606 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  <link rel="stylesheet" href="/style.css">
-</head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary py-0">
+
+     <a href="#top"><button id="myBtn" title="Go to top">Top</button>
+     </a> 
+         <div class="container-fluid p-0">
+      <nav class="navbar navbar-expand-lg py-0 " id="top">
         <div class="container-xxl">
-          <a class="navbar-brand ms-5" href="#"><img src="./images/globaltoyota_logo.svg " alt="" width="150px" height="80"                                           0px"   ></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand ms-5 homeStart" href="#"
+            ><img
+              src="./images/globaltoyota_logo.svg "
+              alt=""
+              width="140px"
+              height="60"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                
-              <a class="nav-link active homeStart" href="#">Company</a>
-              <a class="nav-link active" href="#">Newsroom</a>
-              <a class="nav-link active">Mobility</a>
-              <a class="nav-link active">Sustainability</a>
+            <div class="navbar-nav fw-bold col-lg-12 text-center">
+              <a class="nav-link active mx-2" href="#">Company</a>
+              <a class="nav-link active mx-2" href="#">Newsroom</a>
+              <a class="nav-link active mx-2">Mobility</a>
+              <a class="nav-link active mx-2">Sustainability</a>
 
-              <a class="nav-link active">IR</a> 
+              <a class="nav-link active">IR</a>
 
-              <a class="nav-link    active mx-2 ">|</a>
-              <a class="nav-link active mx-2  " aria-current="page" href="#"><img src="./images/icons8-search-30.png" height="20px" width="20px"    alt=""></a>
-              <a class="nav-link active  mx-2 hoverclass  text-black">Downloadable Assets   </a>
+              <a class="nav-link active mx-2">|</a>
+              <a class="nav-link active me-2" aria-current="page" href="#"
+                ><img
+                  src="./images/icons8-search-30.png"
+                  height="20px"
+                  width="20px"
+                  alt=""
+              /></a>
+              <a class="nav-link mx-2 hoverclass text-black"
+                >Downloadable Assets
+              </a>
               <a class="nav-link active mx-2 hoverclass">Line Up</a>
-              <a class="nav-link active mx-2 hoverclass ">JPN</a>
-              
-
-
+              <a class="nav-link active mx-2 hoverclass">JPN</a>
             </div>
           </div>
         </div>
       </nav>
-      <!-- Section 01 -->
+      <!-- Section 001 -->
       <!-- border border-danger       -->
-      <div class="container-xxl section01 ">
-        <div class="">
-            <span class=" text-white section01Span ms-2">Our picks</span><br>  
-            <span class="text-white  ms-2">Mar.01,2023</span>
-            <h2 class="text-white  ms-2"> Toyota Launches All-New Prius PHEV in Japan   </h2>
+      <div class="container-xxl section001 p-0 section02">
+        <div class="section01stDiv m-0">
+          <span class="text-white section01Span ms-4">Our picks</span><br />
+          <span class="text-white ms-4">Mar.20,2023</span>
+          <h2 class="text-white ms-4">Rally México</h2>
+          <h2 class="text-white ms-4 mb-5">
+            Another record win for Ogier aboard the GR YARIS Rally1 HYBRID
+          </h2>
         </div>
-        </div>
+      </div>
 
-       <!-- border border-danger       -->
-       <div class="container-xxl section02 text-center my-4">
-        <div>
-        <p>
-            <a href="#" class="text-center mb-3"> Notification: Memorial Service for Shoichiro Toyoda</a>
-        </p>
-    </div>
-       </div>
+      <!-- border border-danger       -->
+
+      <!-- Section 002 -->
+      <!-- border border-danger       -->
+      <div class="container-xxl section002 p-0 section02">
+        <div class="section01stDiv m-0">
+          <span class="text-white section01Span ms-4">Our picks</span><br />
+          <span class="text-white ms-4">Mar.20,2023</span>
+          <h2 class="text-white ms-4">1000 Miles of Sebring: Race</h2>
+          <h2 class="text-white ms-4 mb-5">
+            TOYOTA GAZOO Racing secures Sebring one-two
+          </h2>
+        </div>
+      </div>
+
       <!-- Section 02 -->
 
+      <div class="container-xxl d-flex justify-content-center my-5">
+        <a href="#" class="section02Heading">
+          Notification: Memorial Service for Shoichiro Toyoda</a
+        >
+      </div>
 
-       <div class="container-xxl section02 text-center py-4">
-        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./images/Slider01.png" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./images/Slider02.png" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./images/Slider03.png" class="d-block w-100" alt="...">
+      <!-- section003 -->
+
+      <div class="container-xxl text-center px-0 mb-5">
+        <div
+          id="carouselExampleSlidesOnly"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex col-12 flex-wrap">
+                <div class="col-lg-6 col-sm-12 section02">
+                  <img src="/images/slide01.jpg" class="d-block w-100" alt="" />
+                </div>
+                <div class="col-lg-6 col-sm-12 section003SecondDiv">
+                  <span
+                    class="d-block justify-content-start mx-4 text-start section003SecondDivDate"
+                    >March.15,2023</span
+                  >
+                  <h3 class="mx-4 text-start fw-bold section06HoverColor">
+                    "Don't Let Perfect be the Enemy of Good"--Toyota's Chief
+                    Scientist on Decarbonization
+                  </h3>
+                  <h5 class="mx-4 text-start section06HoverColor">
+                    How is the world to wean itself off carbon? What is the
+                    potential for Japan's pursuit of hydrogen? Toyota's Chief
+                    Scientist Dr. Gill Pratt explains.
+                  </h5>
+                  <span
+                    class="d-flex justify-content-end me-5 fw-bold fs-4 pt-5 section06HoverColor"
+                    >More &#62;</span
+                  >
+                </div>
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+            <div class="carousel-item">
+              <div class="d-flex col-12 flex-wrap">
+                <div class="col-lg-6 col-sm-12 section02">
+                  <img src="/images/slide02.jpg" class="d-block w-100" alt="" />
+                </div>
+                <div class="col-lg-6 col-sm-12 section003SecondDiv">
+                  <span class="d-block justify-content-start mx-4 text-start"
+                    >March.22,2023</span
+                  >
+                  <h3 class="mx-4 text-start fw-bold">
+                    Toyota's Carmaking Revolution Begins with the New Prius
+                  </h3>
+                  <h5 class="mx-4 text-start">
+                    The new KINTO Unlimited subscription service upends the
+                    notion that the latest cars must be expensive. Behind the
+                    service lies a change in Toyota's approach to carmaking.
+                  </h5>
+                  <span
+                    class="d-flex justify-content-end me-5 fw-bold fs-4 pt-5"
+                    >More &#62;</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex col-12 flex-wrap">
+                <div class="col-lg-6 col-sm-12 section02">
+                  <img src="/images/slide03.jpg" class="d-block w-100" alt="" />
+                </div>
+                <div class="col-lg-6 col-sm-12 section003SecondDiv">
+                  <span class="d-block justify-content-start mx-4 text-start"
+                    >March.27,2023</span
+                  >
+                  <h3 class="mx-4 text-start fw-bold">
+                    Who Determines the Driving Feel of a Toyota? Dissecting the
+                    Advanced Technical Skills Institute Division
+                  </h3>
+                  <h5 class="mx-4 text-start">
+                    This article, the first in a series of articles looking at
+                    how the driving feel of Toyota is created, offers a sneak
+                    peek inside a key facility for making ever-better cars.
+                  </h5>
+                  <span
+                    class="d-flex justify-content-end me-5 fw-bold fs-4 pt-5"
+                    >More &#62;</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex col-12 flex-wrap">
+                <div class="col-lg-6 col-sm-12 section02">
+                  <img src="/images/slide04.jpg" class="d-block w-100" alt="" />
+                </div>
+                <div class="col-lg-6 col-sm-12 section003SecondDiv">
+                  <span class="d-block justify-content-start mx-4 text-start"
+                    >March.23,2023</span
+                  >
+                  <h3 class="mx-4 text-start fw-bold">
+                    A Candid, Honest, Earnest Relationship with Suppliers
+                  </h3>
+                  <h5 class="mx-4 text-start">
+                    Appearing together before stakeholders for the first time
+                    since the leadership change press conference, President Akio
+                    Toyoda and incoming President Koji Sato spoke about Toyota's
+                    relationship with its suppliers.
+                  </h5>
+                  <span
+                    class="d-flex justify-content-end me-5 fw-bold fs-4 pt-5"
+                    >More &#62;</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex col-12 flex-wrap">
+                <div class="col-lg-6 col-sm-12 section02">
+                  <img src="/images/slide01.jpg" class="d-block w-100" alt="" />
+                </div>
+                <div class="col-lg-6 col-sm-12 section003SecondDiv">
+                  <span class="d-block justify-content-start mx-4 text-start"
+                    >March.22,2023</span
+                  >
+                  <h3 class="mx-4 text-start fw-bold">
+                    Thank You for Breaking It--The Endless Pursuit of
+                    Ever-Better Cars
+                  </h3>
+                  <h5 class="mx-4 text-start">
+                    Making ever-better cars is a never-ending series of
+                    challenges. Toyota Times caught up with engineers taking up
+                    the gauntlet on the development frontlines.
+                  </h5>
+                  <span
+                    class="d-flex justify-content-end me-5 fw-bold fs-4 pt-5"
+                    >More &#62;</span
+                  >
+                </div>
+              </div>
+            </div>
           </div>
+        </div>
+      </div>
 
-       </div>
+      <!-- border border-danger       -->
+
+      <!-- Section 01 -->
+      <!-- border border-danger       -->
+      <div class="container-xxl section01 p-0">
+        <div class="section01stDiv m-0">
+          <span class="text-white section01Span ms-4">Our picks</span><br />
+          <span class="text-white ms-4">Mar.01,2023</span>
+          <h2 class="text-white ms-4 mb-5">
+            Toyota Launches All-New Prius PHEV in Japan
+          </h2>
+        </div>
+      </div>
+
       <!-- Section 03 -->
       <div class="section03Background">
-
-       <div class="container-xxl section03 p-0">
+        <div class="container-xxl col-lg-12 col-md-12 col-sm-12 section03 p-0">
+          <div class="section04buttom">
+            <span class="text-white section01Span ms-2 section03hover"
+              >Our picks</span
+            ><br />
+            <span class="text-white ms-2 section03hover">Feb.13,2023</span>
+            <h2 class="text-white ms-2 section03hover">
+              TMC Announces Changes to Executive Structure, Senior
+              Professional/Senior Management Employees
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div class="container-xxl section04 p-0">
         <div class="section04buttom">
-            <span class=" text-white section01Span ms-2 section03hover">Our picks</span><br>  
-            <span class="text-white  ms-2 section03hover">Feb.13,2023</span>
-            <h2 class="text-white  ms-2 section03hover"> TMC Announces Changes to Executive Structure, Senior Professional/Senior Management Employees   </h2>
+          <span class="text-white section01Span ms-2 section03hover"
+            >Our picks</span
+          ><br />
+          <span class="text-white ms-2 section03hover">Feb.13,2023</span>
+          <h2 class="text-white ms-2 section03hover">
+            TMC Announces Changes to Executive Structure, Senior
+            Professional/Senior Management Employees
+          </h2>
         </div>
+      </div>
+
+      <!-- Section06 -->
+
+      <div class="container-xxl col-12 d-flex justify-content-center flex-wrap">
+        <div class="col-lg-6 col-sm-12">
+          <div class="d-flex">
+            <h2 class="py-3 px-5 fw-bold">Newsroom</h2>
+            <span class="fw-bold moreButton pe-5">More></span>
+          </div>
+
+          <div class="d-flex col-12 section6 mb-1">
+            <div
+              class="col-lg-6 col-sm-12 section6FirstDiv d-flex justify-content-center align-item-center"
+            >
+              <img
+                src="/images/globaltoyota_logo.svg"
+                class=""
+                alt=""
+                width="90px"
+              />
+              <div class="section6FirstDivBrightness"></div>
+            </div>
+            <div
+              class="col-lg-6 col-sm-12 section06Text section06BackgroundColor d-flex flex-column justify-content-center"
+            >
+              <h6 class="mx-4">Mar.30,2023</h6>
+              <h6 class="mx-4 section06HoverColor">
+                Sales, Production, and Export Results for February 2023
+              </h6>
+            </div>
+          </div>
+
+
+          <!--  -->
+          <div class="d-flex col-12 section6 mb-1">
+            <div
+              class="col-lg-6 col-sm-12 section6FirstDiv d-flex justify-content-center align-item-center"
+            >
+              <img
+                src="/images/section06-02.jpg"
+                class=""
+                alt=""
+                width="120px"
+                height="80px"
+              />
+              <div class="section6FirstDivBrightness"></div>
+            </div>
+            <div
+              class="col-lg-6 col-sm-12 section06Text d-flex flex-column justify-content-center"
+            >
+              <h6 class="mx-4" width="100%">Mar. 29, 2023
+              </h6>
+              <h6 class="mx-4 section06HoverColor">
+                Mazda Joins Research Association of Biomass Innovation for Next Generation Automobile Fuels
+              </h6>
+            </div>
+          </div>
+    <!--  -->
+
+          <div class="d-flex col-12 section6 mb-1">
+            <div
+              class="col-lg-6 col-sm-12 section6FirstDiv d-flex justify-content-center align-item-center"
+            >
+              <img
+                src="/images/section06-03.jpg"
+                class=""
+                alt=""
+                width="100%"
+              />
+              <div class="section6FirstDivBrightness"></div>
+            </div>
+            <div
+              class="col-lg-6 col-sm-12 section06Text d-flex flex-column justify-content-center  section06BackgroundColor"
+            >
+              <h6 class="mx-4" width="100%">Mar. 28, 2023</h6>
+              <h6 class="mx-4 section06HoverColor">
+                Toyota to Establish a New Company to Promote the Fuji Motorsports Forest Project ...
+              </h6>
+            </div>
+          </div>
+
+
+           <!--  -->
+          <div class="d-flex col-12 section6 mb-1">
+            <div
+              class="col-lg-6 col-sm-12 section6FirstDiv d-flex justify-content-center align-item-center"
+            >
+              <img
+                src="/images/globaltoyota_logo.svg"
+                class=""
+                alt=""
+                width="90px"
+              />
+              <div class="section6FirstDivBrightness"></div>
+            </div>
+            <div
+              class="col-lg-6 col-sm-12 section06Text d-flex flex-column justify-content-center"
+            >
+              <h6 class="mx-4" width="100%">March.22,2023</h6>
+              <h6 class="mx-4 section06HoverColor">
+                TMC Announces Changes to Executive Structure and Senior Professional/Senior Management Employees
+              </h6>
+            </div>
+          </div>
+ <!--  -->
+
+          <div class="d-flex col-12 section6 mb-1">
+            <div
+              class="col-lg-6 col-sm-12 section6FirstDiv d-flex justify-content-center align-item-center"
+            >
+              <img
+                src="/images/section06-04.jpg"
+                class=""
+                alt=""
+                width="100%"
+              />
+              <div class="section6FirstDivBrightness"></div>
+            </div>
+            <div
+              class="col-lg-6 col-sm-12 section06Text  section06BackgroundColor d-flex flex-column justify-content-center"
+            >
+              <h6 class="mx-4" width="100%">March.20,2023</h6>
+              <h6 class="mx-4 section06HoverColor">
+                Toyota Launches the C+walk S in Japan, a New Form of Walking-Assistance Mobility
+              </h6>
+            </div>
+          </div>
+
+ <!-- Another half div -->
         </div>
+        <div class="col-lg-6 col-sm-12 border-start border-secondary">
+          <div>
+            <h2 class="py-3 px-5 fw-bold">Latest Updates</h2>
+          </div>
+
+          <!--  -->
+          <div class="d-flex col-12 section6 mb-1">
+            <div
+              class="col-lg-6 col-sm-12 section6FirstDiv d-flex justify-content-center align-item-center"
+            >
+              <img
+                src="/images/section06-05.jpg"
+                class=""
+                alt=""
+                width="100%"
+              />
+              <div class="section6FirstDivBrightness"></div>
+            </div>
+            <div
+              class="col-lg-6 col-sm-12 section06Text section06BackgroundColor d-flex flex-column justify-content-center"
+            >
+              <h6 class="mx-4">Mar.17,2023</h6>
+              <h6 class="mx-4 section06HoverColor">
+                "Topics" (Toyota included in the Health & Productivity Stock Selection Program) updated
+              </h6>
+            </div>
+          </div>
+
+
+          <!--  -->
+
+          <div class="d-flex col-12 section6 mb-1">
+            <div
+              class="col-lg-6 col-sm-12 section6FirstDiv d-flex justify-content-center align-item-center"
+            >
+              <img
+                src="/images/section06-06.jpg"
+                class=""
+                alt=""
+                width="100%"
+              />
+              <div class="section6FirstDivBrightness"></div>
+            </div>
+            <div
+              class="col-lg-6 col-sm-12 section06Text  d-flex flex-column justify-content-center"
+            >
+              <h6 class="mx-4">Dec.28,2022</h6>
+              <h6 class="mx-4 section06HoverColor">
+                "Sustainability Data Book" (Public Policy) updated
+              </h6>
+            </div>
+          </div>
+
+          <!--  -->
+
+          <div class="d-flex col-12 section6 mb-1">
+            <div
+              class="col-lg-6 col-sm-12 section6FirstDiv d-flex justify-content-center align-item-center"
+            >
+              <img
+                src="/images/section06-05.jpg"
+                class=""
+                alt=""
+                width="100%"
+              />
+              <div class="section6FirstDivBrightness"></div>
+            </div>
+            <div
+              class="col-lg-6 col-sm-12 section06Text section06BackgroundColor d-flex flex-column justify-content-center"
+            >
+              <h6 class="mx-4">Dec.01,2022</h6>
+              <h6 class="mx-4 section06HoverColor">
+                "Topics" (Toyota awarded the Gold and Best Practice Prizes in PRIDE INDEX 2022) updated
+              </h6>
+            </div>
+          </div>
+
+          <!--  -->
+
+          <div class="d-flex col-12 section6 mb-1">
+            <div
+              class="col-lg-6 col-sm-12 section6FirstDiv d-flex justify-content-center align-item-center"
+            >
+              <img
+                src="/images/section06-07.jpg"
+                class=""
+                alt=""
+                width="100%"
+              />
+              <div class="section6FirstDivBrightness"></div>
+            </div>
+            <div
+              class="col-lg-6 col-sm-12 section06Text section06BackgroundColor d-flex flex-column justify-content-center"
+            >
+              <h6 class="mx-4">Nov.29,2022</h6>
+              <h6 class="mx-4 section06HoverColor">
+                "Integrated Report 2022" updated
+              </h6>
+            </div>
+          </div>
+
+
+          <!--  -->
+
+
+          <div class="d-flex col-12 section6">
+            <div
+              class="col-lg-6 col-sm-12 section6FirstDiv d-flex justify-content-center align-item-center"
+            >
+              <img
+                src="/images/section06-08.jpg"
+                class=""
+                alt=""
+                width="100%"
+              />
+              <div class="section6FirstDivBrightness"></div>
+            </div>
+            <div
+              class="col-lg-6 col-sm-12 section06Text section06BackgroundColor d-flex flex-column justify-content-center"
+            >
+              <h6 class="mx-4">Oct.31,2022</h6>
+              <h6 class="mx-4 section06HoverColor">
+                "Environmental Initiatives: Policy" ...
+              </h6>
+            </div>
+          </div>
+
+          <!--  -->
+
+
+
+
+        </div>
+      </div>
+      <br /><br /><br /><br />
+
+
+
+       <!-- Section 07 -->
+
+
+      <div class="container-xxl col-12 p-0 section05 d-flex">
+        <div class="col-4 text-center">
+          <div><img class="section05img" src="./images/004.jpg" alt="" /></div>
+          <span class="section05Span">SDGs Initiatives</span>
+        </div>
+        <div class="col-4 text-center">
+          <div><img class="section05img" src="./images/005.jpg" alt="" /></div>
+          <span class="section05Span">Beyond Zero</span>
+        </div>
+        <div class="col-4 text-center">
+          <div><img class="section05img" src="./images/006.jpg" alt="" /></div>
+          <span class="section05Span">Message from Management </span>
+        </div>
+      </div>
+      <br /><br /><br />
+
+ <!-- Section 08 -->
+
+      <div class="container-xxl p-5 section06 ">
+        <div class="text-center">
+          <h1 class="fw-bold mb-5">Notices</h1>
+        </div>
+        <div class="section06UlList col-10   mx-auto" >
+          <ul>
+            <li>
+              Feb. 24, 2023
+              <a href="" class="section06Color"> Notice: Memorial Service for Shoichiro Toyoda</a>
+            </li>
+            <li>Feb. 15, 2023 <a href="" class="section06Color">Production Plan for March</a></li>
+            <li>
+              Feb. 14, 2023
+              <a href="" class="section06Color"> Passing of TMC Honorary Chairman Shoichiro Toyoda</a>
+            </li>
+            <li>
+              Feb. 10, 2023
+              <a href="" class="section06Color">
+                Toyota Responds to Urgent Need Following Devastating
+                South-Eastern Turkey Earthquake</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
-        <div class="container-xxl section04 p-0">
-            <div class="section04buttom">
-                <span class=" text-white section01Span ms-2 section03hover">Our picks</span><br>  
-                <span class="text-white  ms-2 section03hover">Feb.13,2023</span>
-                <h2 class="text-white  ms-2 section03hover"> TMC Announces Changes to Executive Structure, Senior Professional/Senior Management Employees   </h2>
-            </div>
-            </div>
-            <br><br><br>
 
-        <div class="container-xxl col-12 p-0 section05 d-flex ">
-            <div class="col-4 text-center">
-                <div> <img class="section05img" src="./images/004.jpg" alt=""></div>
-                <span class="section05Span">SDGs Initiatives</span>
-            </div>
-            <div class="col-4 text-center">
-                <div> <img class="section05img" src="./images/005.jpg" alt=""></div>
-                <span class="section05Span">Beyond Zero</span>
-            </div>
-            <div class="col-4 text-center">
-                <div> <img class="section05img" src="./images/006.jpg" alt=""></div>
-                <span class="section05Span">Message from Management
-                </span>
-            </div>
-
-        </div><br><br><br>
-        <div class="container-xxl  p-0 section06 ">
-            <div class="text-center">
-            <h2 class="fw-bold">Notices</h2>
-        </div>
-        <div class="section06UlList">
-            <ul>
-                    <li>Feb. 24, 2023  <a href=""> Notice: Memorial Service for Shoichiro Toyoda</a> </li>
-                    <li>Feb. 15, 2023 <a href="">Production Plan for March</a></li>
-                    <li>Feb. 14, 2023 <a href=""> Passing of TMC Honorary Chairman Shoichiro Toyoda</a></li>
-                    <li>Feb. 10, 2023 <a href=""> Toyota Responds to Urgent Need Following Devastating South-Eastern Turkey Earthquake</a></li>
-            </ul>
-        </div>
-
-
-        </div>
-
-
-       
-
-
-
-
-
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous";
+    ></script>
+    <script src="app.js">
+      
+    </script>
   </body>
 </html>
