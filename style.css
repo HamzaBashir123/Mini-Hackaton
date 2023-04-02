@@ -11,6 +11,8 @@ transition: 1s ease-in-out;
    background-image: none;
    background-image: url(./images/globaltoyota_logo.svg);
 }
+
+
 .hoverclass:hover{
     color: red !important;
     border: 2px solid red;
@@ -41,9 +43,37 @@ transition: 1s ease-in-out;
 
 
 
+.hidden{
+    
+    position: fixed;
+    display: flex;
+    justify-content: end;
 
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+    padding: 15px 5px 15px 5px;
+    margin: 20px;
+    height: fit-content;
+    width: fit-content;
 
-
+}
+.hidden a{
+    transition: 2s ease-in-out;
+}
+.mainContainer{
+    position: relative;
+}
+.hiddenButton{
+    height: 70px;
+    width: 60px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0);
+    border: none;
+}
 
 /* Section 01 */
 .section001{
@@ -231,6 +261,55 @@ transition: 1s ease-in-out;
 
 .section06HoverColor:hover{
     color: red;
+}
+
+/* Section 08 */
+.Section08{
+    background-color: #424242;
+}
+.Section08 li{
+    list-style: none;
+    line-height: 40px;
+}
+.Section08 li:hover{
+    color: red;
+    cursor: pointer;
+
+}
+.Section08leftBorderLine{
+    border-left: 2px solid white;
+
+}
+.Section08 a {
+    margin-left: 10px;
+}
+    
+/* Section 09*/
+.Section09{
+    background-color: #212121;
+    padding: 20px;
+}
+.Section09 span{
+    font-size: smaller;
+    
+
+}
+.Section09 a{
+    text-decoration: none;
+    color: white;
+}
+.section09PrivacyDiv{
+    border-left: 1px solid white;
+    margin-left: 5px;
+    padding-left: 5px;
+}
+.section09Maindiv{
+    /* border: 2px solid red; */
+    justify-content: space-between !important;
+}
+.section09MainDivHover:hover{
+    color: red !important;
+    cursor: pointer;
 }
 /* ==================================   Media Section =============================== */
 
